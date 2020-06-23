@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "AntiRickRoll",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icons/image.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["AntiRickRoll.js"]
+    }
+  ]
+
+}
