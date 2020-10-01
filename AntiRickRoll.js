@@ -1,5 +1,6 @@
 Links = document.links;
 youtubeLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+//link of the video
 let done = 0
 for (let i=0; i<Links.length; i++) {
     if ( Links[i].href == youtubeLink )  {
